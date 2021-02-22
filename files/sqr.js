@@ -70,7 +70,7 @@ $(document).ready(function() {
 		return true;
 }); */
 
-	$(".order_form").submit(function() { //Change
+	$("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
